@@ -1,0 +1,299 @@
+/* header*/
+
+#alfa_home {
+    background-image: url('imagens/head.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 80px 0 40px 0;
+    text-align: center;
+}
+
+img.logo_home {
+    width: 230px;
+    height: 220px;
+}
+
+.home_titulo {
+    font-family: 'Contrail One', cursive;
+    font-size: 500%;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-flex;
+    align-items: center;
+    padding-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home_slogan {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 130%;
+    font-weight: bold;
+    padding-bottom: 40px;
+    margin-left: 28%;
+}
+
+ul {
+    margin-top: 4%;
+    text-align: right;
+}
+
+.home_navegacao {
+    display: inline;
+    font-family: 'Contrail One', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 2%;
+}
+
+nav a {
+    text-decoration: none;
+    color:#000000;
+}
+
+nav a:hover, nav a:focus, nav a:active {
+    transition: 1s all;
+    text-decoration: #00008B;
+    font-size: 31px;
+}
+
+/*sobre a empresa*/
+
+#alfa_sobreaempresa, #alfa_servicos, #alfa_depoimentos, #alfa_contato {
+    background-color: #FEFEFE;
+    text-align: center;
+}
+
+#alfa_sobreaempresa {
+    display: flex;
+    align-items: center;
+}
+
+.sobreaempresa_detalhe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.outros_titulos {
+    font-family: 'Contrail One', cursive;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+
+img.logo_outros {
+    width: 90px;
+    height: 80px;
+}
+
+img.predio_sobreaempresa {
+    padding-top: 8%;
+    padding-right: 4%;
+    padding-left: 10%;
+    width: 35%;
+    height: 32%;
+}
+
+p.textos {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    flex-direction: column;
+    padding-right: 10%;
+    padding-left: 20%;
+}
+
+/*servicos*/
+
+.gradiente {
+    background: linear-gradient(#FEFEFE, #D3D3D3)
+}
+
+#alfa_servicos {
+    background-color: #D3D3D3;
+}
+
+.exemplos_servicos {
+    display: flex;
+}
+
+.exemplos_servicos_detalhe {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 3%;
+   line-height: 1.5;
+}
+
+.imagem_exemplo1, .imagem_exemplo2 {
+    padding: 4%;
+}
+
+.imagem_exemplo3_servicos {
+    padding: 1.2%;
+}
+
+.imagem_exemplo3_breno {
+    padding: 3%;
+}
+
+.titulo_exemplo1, .titulo_exemplo2,  .titulo_exemplo3 {
+    padding: 3%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #00008B
+}
+
+.frase_exemplo1, .frase_exemplo2, .frase_exemplo3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+}
+
+/*depoimentos*/
+
+.gradiente_inverso {
+    background: linear-gradient(#D3D3D3, #FEFEFE);
+}
+
+/*contato*/
+
+.gradiente {
+    background: linear-gradient(#FEFEFE, #D3D3D3)
+}
+
+#alfa_contato {
+    background-color: #D3D3D3;
+    align-items: center;
+    padding: 5%;
+}
+
+.logo_email {
+    width: 10%;
+    height: 79;
+    padding: 3%;
+}
+
+.logo_whats {
+    width: 15%;
+    height: 70%;
+    padding: 3%;
+}
+
+.contato_detalhe {
+    display: inline-flex;
+    text-align: center;
+}
+
+.mapa_detalhe {
+    height: 30rem;
+}
+
+.titulo_estabelecimento {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #00008B
+}
+
+p.email, p.telefone {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: bolder;
+    padding-bottom: 3%;
+    text-align: justify;
+}
+
+form {
+	margin: 40px 0;
+}
+
+form label, form legend {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+}
+
+.input_padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 0.8% 1.5%;
+	width: 46%;
+    border-radius: 4px;
+}
+input {
+    display: flex;
+    justify-content: center;
+}
+
+.enviar {
+    text-align: left;
+    width: 200px;
+	padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+	background: #00008B;
+    font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color: #FFFFFF;
+	font-size: 18px;
+	border-radius: 8px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover, .enviar:focus, .enviar:active {
+    transform: scale(1.2);
+}
+
+/*footer*/
+
+.gradiente_footer {
+    background: linear-gradient(#D3D3D3, #696969)
+}
+
+footer {
+    background-color: #696969;
+    text-align: center;
+    padding: 2%;
+
+}
+.logo_footer {
+    width: 90px;
+    height: 80px;
+}
+
+.copyright {
+    color: #FFFFFF;
+	font-size: 13px;
+	margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+    
+
+
+

@@ -1,0 +1,104 @@
+@media (max-width: 800px) {
+     
+    .home_titulo {
+        transition: 1s all;
+        font-size: 250%;
+    }
+    
+    img.logo_home {
+        transition: 1s all;
+        width: 120px;
+        height: 110px;
+    }
+
+    .home_slogan {
+        transition: 1s all;
+        font-size: 80%;
+        text-align: left;
+    }
+
+    img.predio_sobreaempresa {
+        display: none;
+    }
+
+    .home_navegacao {
+        transition: 1s all;
+        font-size: 16px;
+        padding: 0.5%;
+    }
+
+    nav a:hover {
+        font-size: 18px;
+    }
+
+    h1.outros_titulos {
+        transition: 1s all;
+        font-size: 26px;
+        padding-top: 8%;
+    }
+
+    .exemplos_servicos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imagem_exemplo1, .imagem_exemplo2 {
+        transition: 1s all;
+        width: 139px;
+        height: 126px;
+    }
+
+    .imagem_exemplo3_servicos {
+        transition: 1s all;
+        width: 129px;
+        height: 126px;
+    }
+    
+    .imagem_exemplo3_breno {
+        transition: 1s all;
+        width: 132px;
+        height: 126px;
+    }
+
+    .contato_detalhe {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titulo_estabelecimento {
+        transition: 1s all;
+        font-size: 16px;
+    }
+
+    .mapa {
+        overflow: hidden;
+        padding-bottom: 56.25%;
+        position: relative;
+        height: 0;
+    }
+
+    .mapa_detalhe {
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+
+    .input_padrao {
+      width: 100%;
+      float: left;
+      padding-left: 1px;
+    }
+
+    .enviar {
+        transition: 1s all;
+        float: left;
+        font-size: 14px;
+        width: 150px;
+    }
+
+    .enviar:hover {
+        transform: scale(1.1);
+    }
+}
